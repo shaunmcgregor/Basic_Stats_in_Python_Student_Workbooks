@@ -881,7 +881,7 @@ show = Show
 
 
 def main():
-    color_iter = _Brewer.ColorGenerator(7)
+    color_iter = _Brewer.ColorGenerator(2)
     for color in color_iter:
         print(color)
 
